@@ -1,0 +1,28 @@
+/*css voor de backend kant van de website   */
+a:hover{
+    text-decoration: none;
+}
+
+hr{
+    background-color: #444;
+}
+
+img{
+    width: 100px;
+}
+
+#formProduct select{
+    width: 20%;
+
+}
+#formProduct input{
+   width: 20%;
+    display: inline-block;
+
+}
+#formProduct button{
+    width: 15%;
+    color: white;
+}
+
+

@@ -1,0 +1,172 @@
+@font-face {
+    src: url("fonts/SourceSansPro-Regular.ttf");
+    font-family: SourceSansPro;
+}
+
+/************************header*******************************/
+/*de header zelf*/
+#header {
+    /*background-color: #DCF0FA;*/
+    background-color: #03a8c9;;
+    min-height: 100px;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+}
+
+/*het logo*/
+/*logo witte gedeelte*/
+#logo {
+    background-color: white;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 90px;
+    margin-left: 30px;
+}
+
+/*logo img*/
+#logo img {
+    width: 60px;
+}
+
+/*title in de header*/
+h1#Title {
+    font-family: SourceSansPro;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    font-size: 30px;
+    left: calc(20% + 120px);
+}
+
+/*de zoekbalk*/
+/*positionering zoekbalk header*/
+#search {
+    margin: 30px 0 30px 0;
+    padding: 0 30px 0 30px;
+}
+
+/* styling button zoekbalk */
+#searchButton {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0 10px 0 10px;
+}
+
+#rowMenuGrijs{
+    background-color:#f3f3f3;
+    padding: 0;
+     margin: 0;
+}
+
+/*vergroot glas teken in zoekbalk*/
+#icon {
+    width: 12px;
+    margin-bottom: 3px;
+    padding: 0;
+}
+
+/*grijze balk in het menu*/
+#grijsMenuBalk {
+  /*  : #f3f3f3;*/
+    height: 50px;
+    width: 100%;
+}
+
+
+
+div.col12  div#grijsMenuBalk{
+    padding: 20px;
+
+}
+
+/*********************** hamburger menu ***************************/
+/*knoppen*/
+#filterButton2, #filterButton1 {
+    margin: 3px;
+
+}
+
+/*
+button .navbar-toggler {
+    left: 20px;
+}
+*/
+
+/*positie hamburger menu*/
+#navbar {
+    padding: 0;
+    top: -50px;
+
+}
+
+button hamburgermenu
+.nav .navbar-toggler {
+    background-color: #e1e0de;
+    height: 35px;
+    width: 35px;
+}
+
+/*icontje hamburgermenu*/
+span.navbar-toggler-icon {
+    height: 25px;
+}
+
+
+/************************* producten **************************/
+
+/* afbeeling product opmaak*/
+#Img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*titels can producten*/
+h1.productTitle a {
+    color: #5f6062;
+    font-size: 30px;
+}
+
+/*product items ding*/
+div.col-md-4 {
+    background-color: #FAFAFA;
+    border: solid 10px white;
+    border-radius: 15px;
+
+}
+
+/************************* detail pagina **************************/
+/*datum onder afbeelding*/
+#date {
+    font-size: 10px;
+}
+
+/************************* overig **************************/
+
+/*buttons styling*/
+button a {
+    color: white;
+}
+
+/*buttons styling*/
+button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/*error message*/
+#error {
+    margin-top: 0;
+}
+
+
+
+
+
